@@ -1,0 +1,472 @@
+/* General Styling */
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  
+  .containment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .logosection img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .intro {
+    padding: 0 20vw;
+    margin-top: 30px;
+  }
+  
+  .intro p {
+    color: #6B6B6B;
+  }
+  
+  .joinbutton button {
+    background-color: #00184B;
+    color: white;
+    width: 127px;
+    height: 48px;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .carousel {
+    margin: 30px 0;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+  }
+  
+  .takechallengesec {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    padding: 0 17vw;
+    gap: 23vw;
+  }
+  
+  #head {
+    color: #203562;
+    font-size: 20px;
+    font-weight: 550;
+    display: flex;
+    text-align: left;
+  }
+  
+  #head2{
+    display: flex;
+    text-align: left;
+    color: #6B6B6B;
+  }
+  #head3{
+    color: #203562;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .profile {
+    display: flex;
+    width: 10vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile p {
+    font-size: 15px;
+    color: #6B6B6B;
+  }
+  
+  .profile img {
+    width: 72px;
+    height: 72px;
+  }
+  
+  .buttonclass {
+    display: flex;
+    justify-content: space-between;
+    gap: 13px;
+  }
+  
+  .buttonclass button {
+    width: 9vw;
+    height: 40px;
+    border-radius: 14px;
+    cursor: pointer;
+  }
+  
+  .dashboard {
+    background-color: #00184B;
+    color: white;
+    border: none;
+    font-size: 11px;
+    width: 40%;
+  }
+  
+  .signout {
+    border: 1.5px solid #00184B;
+    background-color: white;
+    color: #00184B;
+    font-size: 11px;
+  }
+  
+  .footer {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+    justify-content: space-between;
+  }
+  
+  
+
+  .credit{
+    width: 23vw;
+    max-width: 190px;
+    height: 50px;
+    font-size: 18px;
+    rotate: 270deg;
+    padding: 0;
+    margin-right: 30px;
+    margin-bottom: 0;
+    margin-top: 100px;
+
+  }
+  
+  #credittext{
+    border-bottom: #00184B 2px solid;
+    color: #00184B;
+  }
+  
+  #socialp {
+    font-size: 16px;
+    color: #6B6B6B;
+    display: flex;
+    gap: 30px;
+  }
+  
+  #socioanchor {
+    text-decoration: none;
+  }
+
+  .text{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer2{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    gap: 5vw;
+  }
+
+  .text2{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    
+  }
+  .credit2{
+    rotate: 270deg;
+    width: 400px;
+    height: fit-content;
+    margin-top: 50px;
+    margin-right: -4.5vw;
+    
+  }
+  .notcredited2{
+    border-left: 2px #00184B solid;
+    text-align: left;
+    padding-left: 4vw;
+    height: 30vh;
+    margin-left: -6vw;
+  }
+
+  .hidden{
+    display: block;
+   }
+   .hidden2{
+    display: none;
+   }
+
+
+  
+  /* Media Queries */
+  @media (max-width: 1199px) {
+    .intro {
+      padding: 0 10vw;
+    }
+    .hidden2{
+      display: block;
+     }
+     .hidden{
+      display: none;
+     }
+    
+    .credit{
+      width: 23vw;
+      max-width: 350px;
+      height: 20px;
+      font-size: 18px;
+      rotate: 270deg;
+      padding: 0;
+      margin-right: 30px;
+      margin-bottom: 0;
+      margin-top: 50px;
+      margin-left: -160px;
+  
+    }
+    .notcredited2{
+      padding-right: 16vw;
+    }
+
+    .takechallengesec {
+      flex-direction: column;
+      align-items: center;
+      gap: 50px;
+      padding: 0;
+    }
+  
+    .profile {
+      width: 50vw;
+    }
+  
+    .buttonclass button {
+      width: 100px;
+    }
+  
+    .footer2{
+      flex-direction: column;
+      margin-top: 100px;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0;
+    }
+  
+    
+    
+    .written {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+      }
+      #head2{
+        width: 60vw;
+      }
+      #head{
+        width: 60vw;
+      }
+      .socialtags2{
+        margin-top: -200px;
+      }
+      .socialtags2{
+        width: 60vw;
+        margin-left: -25px;
+      }
+      .text2{
+        margin-bottom: 20px;
+      }
+  }
+  
+  @media (max-width: 678px) {
+    .intro {
+      padding: 0 5vw;
+    }
+  
+    .takechallengesec {
+      gap: 30px;
+    }
+  
+    
+  
+    .credit {
+      width: 60vw;
+      transform: rotate(270);
+      margin: 0;
+      display: flex;
+      align-items: flex-start;
+    }
+  
+    #head, #subhead {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 625px) {
+    .carousel {
+      width: 90%;
+    }
+  
+    .profile {
+      width: 80%;
+    }
+  
+    .buttonclass button {
+      width: 80%;
+    }
+  
+    
+  }
+  
+  @media (max-width: 433px) {
+    .containment {
+      padding: 10px;
+    }
+  
+    .carousel {
+      width: 100%;
+    }
+  
+    .profile {
+      width: 100%;
+    }
+  
+    .buttonclass {
+      flex-direction: row;
+    }
+  
+    .footer {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .credit {
+      width: auto;
+      text-align: center;
+      margin: 20px 0;
+    }
+  }
+
+  .footer3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 10vw;
+    margin-top: 100px;
+}
+
+.text3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.credit3 {
+    writing-mode: vertical-rl;
+    transform: rotate(270deg);
+    text-align: left;
+    border-bottom: solid 2px transparent;
+    padding-bottom: 10px;
+    align-self: flex-start;
+}
+
+.written3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0;
+}
+
+
+
+#credittext3 {
+    margin: 0;
+    padding: 0;
+}
+
+#head3{
+  text-align: left;
+}
+#head33{
+  text-align: left;
+}
+@media (min-width: 1200px) {
+    .footer3 {
+        flex-direction: row;
+        justify-content: flex-start;
+        
+    }
+
+    .text3 {
+        flex-direction: row;
+    }
+
+    .credit3 {
+        writing-mode: vertical-rl;
+        transform: rotate(270deg);
+        text-align: left;
+        border-bottom: solid 2px transparent;
+        padding-bottom: 0;
+    }
+
+    .written3 {
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-left: 20px;
+    }
+
+    .notcredited3,
+    .socialtags3 {
+        margin: 0;
+    }
+    
+    .credit3 {
+        border-bottom: solid 2px transparent;
+        height: auto;
+    }
+
+    .socialtags3 {
+        margin-left: 20px;
+    }
+}
+
+/* For widths below 1199px */
+@media (max-width: 1199px) {
+    .credit3 {
+        align-self: flex-start;
+        text-align: left;
+        border-bottom: 2px solid #000;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .written3 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+  .footer3{
+    gap:0px;
+    padding: 0 17vw;
+    
+  }
+  
+    
+
+    .socialtags3 {
+        margin-left: 20px;
+
+    }
+}
+
